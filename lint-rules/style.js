@@ -55,7 +55,7 @@ module.exports = {
 
     // disallow use of unary operators, ++ and --
     // https://eslint.org/docs/rules/no-plusplus
-    'no-plusplus': ['error', { "allowForLoopAfterthoughts": true } ],
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 
     // disallow certain syntax forms
     // https://eslint.org/docs/rules/no-restricted-syntax
@@ -63,17 +63,17 @@ module.exports = {
       'error',
       {
         selector: 'ForInStatement',
-        message :
+        message:
           'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.'
       },
       {
         selector: 'LabeledStatement',
-        message :
+        message:
           'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.'
       },
       {
         selector: 'WithStatement',
-        message :
+        message:
           '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.'
       }
     ],
@@ -85,9 +85,9 @@ module.exports = {
     'no-underscore-dangle': [
       'error',
       {
-        allow               : [],
-        allowAfterThis      : false,
-        allowAfterSuper     : false,
+        allow: [],
+        allowAfterThis: false,
+        allowAfterSuper: false,
         enforceInMethodNames: false
       }
     ],
@@ -98,8 +98,8 @@ module.exports = {
     // Require or disallow padding lines between statements
     // https://eslint.org/docs/rules/padding-line-between-statements
     'padding-line-between-statements': [
-    "error",
-    { blankLine: "always", prev: "*", next: "return" }
-     ],
+      'error',
+      { blankLine: 'always', prev: '*', next: 'return' }
+    ]
   }
-}
+};

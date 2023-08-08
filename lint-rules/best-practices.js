@@ -8,6 +8,6 @@ module.exports = {
 
     // enforce a maximum number of classes per file
     // https://eslint.org/docs/rules/max-classes-per-file
-    'max-classes-per-file': ['warn', 1],
+    'max-classes-per-file': ['warn', 1]
   }
 };
