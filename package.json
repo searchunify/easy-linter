@@ -1,6 +1,6 @@
 {
-  "name": "easy-linter",
-  "version": "1.0.5",
+  "name": "@searchunify/easy-linter",
+  "version": "1.0.0",
   "description": "This module comes up with pre-configured linting rules. This will make implementing linting on the project easy and fast.",
   "main": "index.js",
   "scripts": {
@@ -8,25 +8,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ashishprasher/easy-linter.git"
+    "url": "git+ssh://git@github.com:searchunify/easy-linter.git"
   },
   "keywords": [
     "eslint",
     "lint",
+    "SearchUnify",
     "beautification",
     "coding",
     "standards"
   ],
-  "author": "Ashish Prasher <prasher.ashish@gmail.com>",
+  "author": "SearchUnify",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ashishprasher/easy-linter/issues"
+    "url": "https://github.com/searchunify/easy-linter/issues"
   },
-  "homepage": "https://github.com/ashishprasher/easy-linter#readme",
+  "homepage": "https://github.com/searchunify/easy-linter#readme",
   "dependencies": {
-    "eslint": "^6.5.1",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-security": "^1.4.0",
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-security": "^1.7.1",
     "eslint-restricted-globals": "^0.2.0"
   }
 }

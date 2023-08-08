@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    'airbnb-base',
     './lint-rules/best-practices.js',
     './lint-rules/errors.js',
     './lint-rules/node.js',
